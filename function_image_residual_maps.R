@@ -48,14 +48,3 @@ image_residual_maps <- function(vector_sigmas,
 									"colors" = levels_color_image)
 	return(structure_image_residual)
 	}
-	
-#	image_matrix_num_sigmas_red[which(matrix_num_sigmas_red >= -0.5 & matrix_num_sigmas_red <= 0.5)] = 0
-#	image_matrix_num_sigmas_red[which(matrix_num_sigmas_red < -0.5 & matrix_num_sigmas_red >= -1)] = -1
-#	image_matrix_num_sigmas_red[which(matrix_num_sigmas_red < -1 & matrix_num_sigmas_red >= -2)] = -2
-#	image_matrix_num_sigmas_red[which(matrix_num_sigmas_red < -2 & matrix_num_sigmas_red >= -3)] = -3
-#	image_matrix_num_sigmas_red[which(matrix_num_sigmas_red < -3)] = -4		
-#	image_matrix_num_sigmas_red[which(matrix_num_sigmas_red > 0.5 & matrix_num_sigmas_red < 1)] = 1
-#	image_matrix_num_sigmas_red[which(matrix_num_sigmas_red >= 1 & matrix_num_sigmas_red < 2)] = 2
-#	image_matrix_num_sigmas_red[which(matrix_num_sigmas_red >= 2 & matrix_num_sigmas_red < 3)] = 3
-#	image_matrix_num_sigmas_red[which(matrix_num_sigmas_red > 3)] = 4			
-	
